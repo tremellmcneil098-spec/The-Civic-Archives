@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Monsters — Civic Archives</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="monsters-page">
+
+    <!-- =========================================
+         HEADER
+    ========================================== -->
+
+    <header class="site-header">
+
+        <a href="index.html" class="archive-logo">
+            <span>CIVIC</span>
+            <small>ARCHIVES</small>
+        </a>
+
+        <nav class="site-nav">
+
+            <a href="3d.html">HOME</a>
+
+            <a href="bob.html">BOB</a>
+
+            <a href="world.html">WORLD</a>
+
+            <a href="monsters.html" class="active">MONSTERS</a>
+
+            <a href="archive.html">JOURNEY</a>
+
+            <a href="#">MATERIALS</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =========================================
+         MAIN MONSTER ARCHIVE
+    ========================================== -->
+
+    <main class="monster-container">
+
+
+        <!-- =====================================
+             INTRO
+        ====================================== -->
+
+        <section class="monster-intro">
+
+            <div class="archive-label">
+                MONSTER ARCHIVE // RECORD 001
+            </div>
+
+            <h1>THE UNKNOWN</h1>
+
+            <div class="intro-line"></div>
+
+            <p class="intro-description">
+                AN UNIDENTIFIED PRESENCE RECORDED WITHIN
+                SECTOR 04.
+            </p>
+
+        </section>
+
+
+
+        <!-- =====================================
+             SPECIMEN
+        ====================================== -->
+
+        <section class="specimen-section">
+
+            <div class="specimen-panel">
+
+
+                <!-- LEFT INFORMATION PANEL -->
+
+                <div class="specimen-info">
+
+                    <div class="small-label">
+                        ENTITY CLASSIFICATION
+                    </div>
+
+                    <h2>UNKNOWN</h2>
+
+                    <div class="specimen-line"></div>
+
+
+                    <div class="specimen-data">
+
+                        <div>
+                            <span>SPECIES</span>
+                            <strong>UNKNOWN</strong>
+                        </div>
+
+                        <div>
+                            <span>ORIGIN</span>
+                            <strong>UNKNOWN</strong>
+                        </div>
+
+                        <div>
+                            <span>LOCATION</span>
+                            <strong>SECTOR 04</strong>
+                        </div>
+
+                        <div>
+                            <span>THREAT</span>
+                            <strong>UNDETERMINED</strong>
+                        </div>
+
+                        <div>
+                            <span>STATUS</span>
+                            <strong>ACTIVE</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RIGHT BABYLON PANEL -->
+
+                <div class="specimen-visual">
+
+                    <div class="visual-label">
+                        SPECIMEN / VISUAL RECORD
+                    </div>
+
+
+                    <!--
+                        BABYLON.JS WILL RENDER THE
+                        CREATURE INSIDE THIS CANVAS
+                    -->
+
+                    <canvas id="renderCanvas"></canvas>
+
+
+                    <div class="visual-status">
+                        OBSERVATION ACTIVE
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             OBSERVATION RECORD
+        ====================================== -->
+
+        <section class="observation-section">
+
+            <div class="section-label">
+                OBSERVATION RECORD
+            </div>
+
+            <h2>FIRST CONTACT</h2>
+
+            <p>
+                The first surviving report describes an
+                unidentified presence beneath the facility.
+            </p>
+
+            <p>
+                No complete description of the entity was
+                recovered. Most of the original documentation
+                has been destroyed.
+            </p>
+
+            <div class="redacted">
+                [ ADDITIONAL RECORDS REMOVED ]
+            </div>
+
+            <div class="record-number">
+                RECOVERED RECORD // 002
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             MOVEMENT RECORD
+        ====================================== -->
+
+        <section class="observation-section">
+
+            <div class="section-label">
+                MOVEMENT
+            </div>
+
+            <h2>UNCONFIRMED ACTIVITY</h2>
+
+            <p>
+                Personnel reported movement inside the lower
+                sections of the facility.
+            </p>
+
+            <p>
+                Cameras recorded only partial visual data.
+                The subject could not be identified.
+            </p>
+
+            <p>
+                Several recordings contain unexplained
+                distortions immediately before contact was lost.
+            </p>
+
+        </section>
+
+
+
+        <!-- =====================================
+             BEHAVIOR RECORD
+        ====================================== -->
+
+        <section class="observation-section">
+
+            <div class="section-label">
+                BEHAVIORAL RECORD
+            </div>
+
+            <h2>NO PATTERN IDENTIFIED</h2>
+
+            <p>
+                The entity has demonstrated no confirmed
+                communication with personnel.
+            </p>
+
+            <p>
+                Movement appears irregular and cannot currently
+                be predicted.
+            </p>
+
+            <p>
+                Researchers believe the subject may remain
+                within Sector 04.
+            </p>
+
+        </section>
+
+
+
+        <!-- =====================================
+             FINAL RECORD
+        ====================================== -->
+
+        <section class="observation-section final-record">
+
+            <div class="section-label">
+                FINAL RECOVERED RECORD
+            </div>
+
+            <h2>STATUS: ACTIVE</h2>
+
+            <p>
+                All further observation of the subject has
+                been suspended.
+            </p>
+
+            <p>
+                Sector 04 remains inaccessible.
+            </p>
+
+            <div class="redacted">
+                [ ARCHIVE RECORD TERMINATED ]
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =========================================
+         BABYLON.JS
+    ========================================== -->
+
+    <script src="https://cdn.babylonjs.com/babylon.js"></script>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
